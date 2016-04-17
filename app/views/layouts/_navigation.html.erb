@@ -1,0 +1,36 @@
+<!--navigation bar-->
+<div>
+	<div class="button">
+		<a class="btn-open" href="#"></a>
+	</div>
+</div>
+
+<!--overlay-->
+<div class="overlay">
+	<div class="wrap">
+		<ul class="wrap-nav">
+			<li>
+				<%= link_to "Home", root_path %>
+			</li>
+			<li><%= link_to "About", about_path %>
+			<ul>
+				<li><%= link_to "About Company", '#' %></li>
+				<li><%= link_to "Design", '#' %></li>
+			</ul>
+			</li>
+			<li><%= link_to "For Patients", '#' %>
+			<ul>
+				<li><%= link_to "Stuff", '#' %></li>
+				<li><%= link_to "Info", '#' %></li>
+			</ul>
+			</li>
+			<li><a href="#">Work</a>
+			<ul>
+				<li><a href="#">Web</a></li>
+				<li><a href="#">Graphic</a></li>
+				<li><a href="#">Apps</a></li>
+			</ul>
+			</li>
+		</ul>
+	</div>
+</div>
