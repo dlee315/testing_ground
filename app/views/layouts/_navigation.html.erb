@@ -9,27 +9,23 @@
 <div class="overlay">
 	<div class="wrap">
 		<ul class="wrap-nav">
+			<!--Home column -->
 			<li>
 				<%= link_to "Home", root_path %>
 			</li>
+			<!--About column -->
 			<li><%= link_to "About", about_path %>
-			<ul>
-				<li><%= link_to "About Company", '#' %></li>
-				<li><%= link_to "Design", '#' %></li>
-			</ul>
+				<ul>
+					<li><%= link_to "About Company", '#' %></li>
+					<li><%= link_to "Design", '#' %></li>
+				</ul>
 			</li>
-			<li><%= link_to "For Patients", '#' %>
-			<ul>
-				<li><%= link_to "Stuff", '#' %></li>
-				<li><%= link_to "Info", '#' %></li>
-			</ul>
-			</li>
-			<li><a href="#">Work</a>
-			<ul>
-				<li><a href="#">Web</a></li>
-				<li><a href="#">Graphic</a></li>
-				<li><a href="#">Apps</a></li>
-			</ul>
+			<!--Blog column-->
+			<li><%= link_to "Blog", blog_path %>
+				<ul>
+					<li><%= link_to "Stuff", '#' %></li>
+					<li><%= link_to "Info", '#' %></li>
+				</ul>
 			</li>
 		</ul>
 	</div>
