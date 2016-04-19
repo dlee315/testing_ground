@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'about' => 'static_pages#about'
   get 'blog' => 'static_pages#blog'
   get 'signup' => 'users#new'
+  resources :users
 
 
   # Example of regular route:
