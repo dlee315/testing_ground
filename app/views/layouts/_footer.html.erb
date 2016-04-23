@@ -1,10 +1,12 @@
 <footer>
 		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-    <%= link_to "Sign up", signup_path %>
+
     <br>
     <% if logged_in? %>
       <%= link_to "Log out", logout_path, method: "delete" %>
     <% else %>
       <%= link_to "Log in", login_path %>
+      <br>    
+      <%= link_to "Sign up", signup_path %>
     <% end %>
 </footer>

@@ -1,2 +1,25 @@
 <% provide (:title), "Blog" %>
 <% provide (:header), "Blog" %>
+
+<% if logged_in? %>
+	<div class="row">
+		<aside class="col-md-4">
+			<section class="post_form">
+				<%= render 'shared/post_form' %>
+			</section>
+		</aside>
+	</div>
+
+<% else %>
+
+<div class="col-md-8">
+	<% if @posts.any? %>
+		<h3>Posts</h3>
+		<ol class="posts">
+			<%= render @posts %>
+		</ol>
+		<%= will_paginate @posts %>
+	<% end %>
+</div>
+
+<% end %>

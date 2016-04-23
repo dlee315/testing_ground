@@ -1,3 +1,16 @@
+<% provide (:title), "User" %>
+<% provide (:header), @user.name %>
+
 <%= @user.name %>, <%= @user.email %>
 
-<H1>Hello <%= @user.name %></H1>
+<H1>This is <%= @user.name %></H1>
+
+<div class="col-md-8">
+	<% if @posts.any? %>
+		<h3>Posts</h3>
+		<ol class="posts">
+			<%= render @posts %>
+		</ol>
+		<%= will_paginate @posts %>
+	<% end %>
+</div>
