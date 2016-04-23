@@ -16,6 +16,7 @@
 //= require_tree .
 //= require bootstrap.min
 //= require tinymce
+//= require tinymce-jquery
 
 $(document).ready(function(){
     $(".button a").click(function(){
