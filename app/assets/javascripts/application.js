@@ -15,6 +15,7 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap.min
+//= require tinymce
 
 $(document).ready(function(){
     $(".button a").click(function(){
