@@ -12,11 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootsy
 //= require turbolinks
 //= require_tree .
 //= require bootstrap.min
-//= require tinymce
-//= require tinymce-jquery
 
 $(document).ready(function(){
     $(".button a").click(function(){
