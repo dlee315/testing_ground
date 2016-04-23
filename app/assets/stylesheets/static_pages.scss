@@ -23,7 +23,6 @@ a:active {
     .wrap ul.wrap-nav>li {
         width:100%;
         padding:20px 0;
-        border-bottom:1px solid #575757;
     }
     .wrap ul.wrap-nav {
         padding:30px 0px 0px;
@@ -38,8 +37,7 @@ a:active {
 nav {
     text-align: center;
     width: 100%;
-    position:absolute;
-    z-index:10;
+    position: absolute;
     height: auto;
     overflow: hidden;
 }
@@ -164,7 +162,6 @@ nav ul li a:active {
     margin:0 auto;
 }
 .wrap ul.wrap-nav {
-    border-bottom:1px solid #575757;
     text-transform:capitalize;
     padding:150px 0px 100px;
 }
@@ -202,15 +199,4 @@ nav ul li a:active {
 }
 .wrap ul.wrap-nav ul li a:hover {
     color:#44a4aa;
-}
-
-@media screen and (max-width:48em) {
-    .wrap ul.wrap-nav>li {
-        width:100%;
-        padding:20px 0;
-        border-bottom:1px solid #575757;
-    }
-    .wrap ul.wrap-nav {
-        padding:30px 0px 0px;
-    }
 }
