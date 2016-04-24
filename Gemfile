@@ -28,6 +28,11 @@ gem 'will_paginate',           '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 #bootsy for wysiwyg
 gem 'bootsy'
+gem 'graphicsmagick'
+gem "mini_magick"
+
+#bootstrap
+#gem 'bootstrap-sass', '~> 3.1.1'
 
 # Use Unicorn as the app server
 # gem 'unicorn'

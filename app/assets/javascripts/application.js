@@ -15,7 +15,7 @@
 //= require bootsy
 //= require turbolinks
 //= require_tree .
-//= require bootstrap.min
+//= require bootstrap
 
 $(document).ready(function(){
     $(".button a").click(function(){
