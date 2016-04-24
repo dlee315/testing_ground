@@ -15,22 +15,3 @@
  *= require bootsy
  *= require bootstrap 
  */
-
- h1, h2, h3, h4, h5, h6 {
- 	font-family: 'century';
- }
-
- body {
- 	font-family: 'Gotham';
- }
-
-/* header for each static page */
- header .jumbotron {
- 	background-image: image-url('surgerybw.png');
- 	background-size: cover;
- 	height: 500px;
-
- 	h1 {
- 		margin-top: 250px;
- 	}
- }
